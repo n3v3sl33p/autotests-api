@@ -22,7 +22,7 @@ class APIClient:
         :param params: GET-параметры запроса (например, ?key=value).
         :return: Объект Response с данными ответа.
         """
-        return self.client.get(url, params)
+        return self.client.get(url, params=params)
 
     def post(
         self,
