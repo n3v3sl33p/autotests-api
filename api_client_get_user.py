@@ -1,5 +1,5 @@
 # from clients.courses.courses_client import CreateCourseRequestDict
-from clients.private_http_builder import AuthenticationUserDict
+from clients.builders.private_http_builder import AuthenticationUserDict
 from clients.users.private_users_client import get_private_users_client
 from clients.users.public_users_client import (
     CreateUserRequestDict,

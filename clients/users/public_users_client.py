@@ -3,7 +3,7 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.public_http_builder import get_public_http_client
+from clients.builders.public_http_builder import get_public_http_client
 
 
 class User(TypedDict):

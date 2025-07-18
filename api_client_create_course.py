@@ -1,6 +1,6 @@
+from clients.builders.private_http_builder import AuthenticationUserDict
 from clients.courses.courses_client import CreateCourseRequestDict, get_courses_client
 from clients.files.files_client import CreateFileRequestDict, get_files_client
-from clients.private_http_builder import AuthenticationUserDict
 from clients.users.public_users_client import (
     CreateUserRequestDict,
     get_public_users_client,
