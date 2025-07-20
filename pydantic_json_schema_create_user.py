@@ -2,7 +2,7 @@ from clients.users import public_users_client
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 from tools.assertions.schema import validate_json_schema
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 # print(TokenSchema.model_json_schema())
 """
@@ -21,7 +21,7 @@ from tools.fakers import get_random_email
 public_users_client = get_public_users_client()
 
 create_user_payload = CreateUserRequestSchema(
-    email=get_random_email(),
+    email=fake.email(),
     password="123",
     first_name="artem",  # type: ignore
     last_name="aboba",  # type: ignore

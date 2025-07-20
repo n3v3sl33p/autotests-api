@@ -4,17 +4,10 @@ from clients.users.public_users_client import (
     get_public_users_client,
 )
 from clients.users.users_schema import CreateUserRequestSchema
-from tools.fakers import get_random_email
 
 public_users_client = get_public_users_client()
 
-create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
-    password="123",
-    first_name="artem",  # type: ignore
-    last_name="aboba",  # type: ignore
-    middle_name="jma",  # type: ignore
-)
+create_user_request = CreateUserRequestSchema()
 
 create_user_response = public_users_client.create_user(create_user_request)
 

@@ -1,11 +1,11 @@
 import httpx
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 BASE_URL = "http://127.0.0.1:8000/api/v1"
 
 create_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "123123",
     "lastName": "Aboba",
     "firstName": "Artem",
@@ -32,7 +32,7 @@ with httpx.Client(base_url=BASE_URL) as client:
     client.headers.update(auth_header)
 
     update_payload = {
-        "email": get_random_email(),
+        "email": fake.email(),
         "lastName": "string",
         "firstName": "string",
         "middleName": "string",
