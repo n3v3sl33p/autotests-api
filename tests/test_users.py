@@ -1,4 +1,5 @@
 from http import HTTPStatus
+from typing import Literal
 
 import pytest
 
@@ -9,18 +10,21 @@ from clients.users.users_schema import (
     CreateUserResponseSchema,
     GetUserResponseSchema,
 )
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
+from tools.fakers import fake
 
 
 @pytest.mark.users
 @pytest.mark.regression
+@pytest.mark.parametrize("email_domen", ["mail.ru", "gmail.com", "example.com"])
 def test_create_users(
-    public_users_client: PublicUsersClient, function_user: UserFixture
+    public_users_client: PublicUsersClient,
+    email_domen: Literal["mail.ru"] | Literal["gmail.com"] | Literal["example.com"],
 ):
-    request = CreateUserRequestSchema()
+    request = CreateUserRequestSchema(email=fake.email(domain=email_domen))
     response = public_users_client.create_user_api(request)
     response_data = CreateUserResponseSchema.model_validate_json(response.text)
 
