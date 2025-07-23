@@ -44,23 +44,23 @@ class ExercisesClient(APIClient):
         response = self.get_exercises_api(query)
         return GetExercisesResponseSchema.model_validate_json(response.text)
 
-    def get_exercise_api(self, exerciseId: str) -> Response:
+    def get_exercise_api(self, id: str) -> Response:
         """
         Метод для получения упражнения
 
         :param exerciseId: Id упражнения
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.get(f"/api/v1/exercises/{exerciseId}")
+        return self.client.get(f"/api/v1/exercises/{id}")
 
-    def get_exercise(self, exerciseId: str) -> GetExerciseResponseSchema:
+    def get_exercise(self, id: str) -> GetExerciseResponseSchema:
         """
         Метод для получения упражнения
 
         :param exerciseId: Id упражнения
         :return: Ответ от сервера в виде объекта GetExerciseResponseDict
         """
-        response = self.get_exercise_api(exerciseId)
+        response = self.get_exercise_api(id)
         return GetExerciseResponseSchema.model_validate_json(response.text)
 
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
@@ -120,7 +120,7 @@ class ExercisesClient(APIClient):
         :param exerciseId: Id упражнения
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.delete(f"/api/v1/exercises{exerciseId}")
+        return self.client.delete(f"/api/v1/exercises/{exerciseId}")
 
 
 def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
