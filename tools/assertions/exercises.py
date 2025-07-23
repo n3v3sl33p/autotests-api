@@ -4,10 +4,12 @@ from clients.exercises.exercise_schema import (
     CreateExerciseResponseSchema,
     ExerciseSchema,
     GetExerciseResponseSchema,
+    GetExercisesResponseSchema,
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_length
 from tools.assertions.files import assert_internal_error_response
 
 
@@ -103,3 +105,17 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     expected = InternalErrorResponseSchema(detail="Exercise not found")
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+    get_exercises_response: GetExercisesResponseSchema,
+    create_exercises_response: list[CreateExerciseResponseSchema],
+):
+    assert_length(
+        get_exercises_response.exercises, create_exercises_response, "exercises"
+    )
+
+    for index, create_exercise_response in enumerate(create_exercises_response):
+        assert_exercise(
+            get_exercises_response.exercises[index], create_exercise_response.exercise
+        )
