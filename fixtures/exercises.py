@@ -14,6 +14,10 @@ class ExerciseFixture(BaseModel):
     request: CreateExerciseRequestSchema
     response: CreateExerciseResponseSchema
 
+    @property
+    def id(self) -> str:
+        return self.response.exercise.id
+
 
 @pytest.fixture
 def exercises_client(function_user: UserFixture) -> ExercisesClient:
