@@ -94,9 +94,3 @@ class UpdateExerciseResponseSchema(BaseModel):
     """
 
     exercise: ExerciseSchema
-
-
-create_request = CreateExerciseRequestSchema()
-update_request = UpdateExerciseRequestSchema()
-print(create_request)
-print(update_request)
