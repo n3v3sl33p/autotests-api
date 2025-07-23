@@ -85,7 +85,7 @@ class ExercisesClient(APIClient):
         return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def update_exercise_api(
-        self, exerciseId: str, request: UpdateExerciseRequestSchema
+        self, id: str, request: UpdateExerciseRequestSchema
     ) -> Response:
         """
         Метод для обновления упражнения
@@ -95,11 +95,11 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.patch(
-            f"/api/v1/exercises{exerciseId}", json=request.model_dump(by_alias=True)
+            f"/api/v1/exercises/{id}", json=request.model_dump(by_alias=True)
         )
 
     def update_exercise(
-        self, exerciseId: str, request: UpdateExerciseRequestSchema
+        self, id: str, request: UpdateExerciseRequestSchema
     ) -> UpdateExerciseResponseSchema:
         """
         Метод для обновления упражнения
@@ -109,7 +109,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта UpdateExerciseResponseDict
         """
 
-        response = self.update_exercise_api(exerciseId, request)
+        response = self.update_exercise_api(id, request)
 
         return UpdateExerciseResponseSchema.model_validate(response.text)
 
