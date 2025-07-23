@@ -98,7 +98,6 @@ class TestExercises:
         assert_status_code(response.status_code, HTTPStatus.OK)
 
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
-        print("JSON", response.json())
 
         assert_get_exercises_response(response_data, [function_exercise.response])
 
