@@ -5,7 +5,7 @@ from clients.courses.courses_schema import (
     CreateCourseRequestSchema,
     CreateCourseResponseSchema,
     GetCoursesQuerySchema,
-    UpadateCourseRequestSchema,
+    UpdateCourseRequestSchema,
 )
 from clients.private_http_builder import (
     AuthenticationUserSchema,
@@ -57,7 +57,7 @@ class CoursesClient(APIClient):
         return self.client.get(f"/api/v1/courses/{course_id}")
 
     def update_course_api(
-        self, course_id: str, request: UpadateCourseRequestSchema
+        self, course_id: str, request: UpdateCourseRequestSchema
     ) -> Response:
         """
         Метод обновления курса.
@@ -67,7 +67,8 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.patch(
-            f"/api/v1/courses/{course_id}", json=request.model_dump(by_alias=True)
+            f"/api/v1/courses/{course_id}",
+            json=request.model_dump(by_alias=True, exclude_none=True),
         )
 
     def delete_course_api(self, course_id: str) -> Response:
