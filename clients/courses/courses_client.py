@@ -12,6 +12,7 @@ from clients.private_http_builder import (
     AuthenticationUserSchema,
     get_private_http_client,
 )
+from tools.routes import APIRoutes
 
 
 class CoursesClient(APIClient):
@@ -28,7 +29,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.get(
-            "/api/v1/courses", params=query.model_dump(by_alias=True)
+            APIRoutes.COURSES, params=query.model_dump(by_alias=True)
         )
 
     @allure.step("Create course")
@@ -41,7 +42,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.post(
-            "/api/v1/courses", json=request.model_dump(by_alias=True)
+            APIRoutes.COURSES, json=request.model_dump(by_alias=True)
         )
 
     def create_course(
@@ -58,7 +59,7 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.get(f"/api/v1/courses/{course_id}")
+        return self.client.get(f"{APIRoutes.COURSES}/{course_id}")
 
     @allure.step("Update course by id {course_id}")
     def update_course_api(
@@ -72,7 +73,7 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.patch(
-            f"/api/v1/courses/{course_id}",
+            f"{APIRoutes.COURSES}/{course_id}",
             json=request.model_dump(by_alias=True, exclude_none=True),
         )
 
@@ -84,7 +85,7 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.delete(f"/api/v1/courses/{course_id}")
+        return self.client.delete(f"{APIRoutes.COURSES}/{course_id}")
 
 
 def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:

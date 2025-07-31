@@ -15,6 +15,7 @@ from clients.private_http_builder import (
     AuthenticationUserSchema,
     get_private_http_client,
 )
+from tools.routes import APIRoutes
 
 
 class ExercisesClient(APIClient):
@@ -31,7 +32,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.get(
-            "/api/v1/exercises", params=query.model_dump(by_alias=True)
+            APIRoutes.EXERCISES, params=query.model_dump(by_alias=True)
         )
 
     def get_exercises(
@@ -54,7 +55,7 @@ class ExercisesClient(APIClient):
         :param exerciseId: Id упражнения
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.get(f"/api/v1/exercises/{id}")
+        return self.client.get(f"{APIRoutes.EXERCISES}/{id}")
 
     def get_exercise(self, id: str) -> GetExerciseResponseSchema:
         """
@@ -74,7 +75,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.post(
-            "/api/v1/exercises", json=request.model_dump(by_alias=True)
+            APIRoutes.EXERCISES, json=request.model_dump(by_alias=True)
         )
 
     def create_exercise(
@@ -100,7 +101,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.patch(
-            f"/api/v1/exercises/{id}", json=request.model_dump(by_alias=True)
+            f"{APIRoutes.EXERCISES}/{id}", json=request.model_dump(by_alias=True)
         )
 
     def update_exercise(
@@ -126,7 +127,7 @@ class ExercisesClient(APIClient):
         :param exerciseId: Id упражнения
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.delete(f"/api/v1/exercises/{exerciseId}")
+        return self.client.delete(f"{APIRoutes.EXERCISES}/{exerciseId}")
 
 
 def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
