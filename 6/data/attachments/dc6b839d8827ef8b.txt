@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM3OjMzLjQ4OTc2MiIsInVzZXJfaWQiOiI1ZjM2MmJhZS01NjZiLTQxOTktYTZjYi04ZGM5NGYyNmM2ZjAifQ.58in6RY0Ep8ZLRnTJ_m9kP8O9TT9YFDuAjXvLmlOfts' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call senior remember direction term.","maxScore":75,"minScore":20,"description":"Total use wait series trip risk glass pull.\nFly court grow. Force total report interview recently note necessary. Front great road charge show discuss.","estimatedTime":"10 weeks","previewFileId":"401b5316-fdf7-4308-9715-db986aaca7fa","createdByUserId":"5f362bae-566b-4199-a6cb-8dc94f26c6f0"}'

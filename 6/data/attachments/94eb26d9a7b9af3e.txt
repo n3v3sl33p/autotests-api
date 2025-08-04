@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM3OjI5Ljg0NTc1MyIsInVzZXJfaWQiOiJmYjY2ZGI4OS0xYjBhLTRhMGItYTYyNC1iODliY2YxNDRhMTkifQ.mZOOGmdVRdAyl8X17wKnvJf_ZDkK4mJxOtNAtNRcHyA' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community one add report set clear.","maxScore":51,"minScore":12,"description":"On week also seat newspaper should. System increase argue whom. Show drop husband green season successful.\nPer cup management. Radio pull risk determine.","estimatedTime":"7 weeks","previewFileId":"089af911-0d49-473c-b49b-66bef3fcb695","createdByUserId":"fb66db89-1b0a-4a0b-a624-b89bcf144a19"}'

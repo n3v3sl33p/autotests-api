@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM3OjM0LjA3MTAyOSIsInVzZXJfaWQiOiIwZGFhMDljZi0xOTc2LTQ1YWMtYjQwYi1hZDMyNmYwMTRmYWYifQ.gVHUZn0xWSy4TmQQX7NECUBGwHxk9-P_EPIxi01JWV8' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit too step coach professional about service.","maxScore":58,"minScore":6,"description":"Wall shake investment attention black and. Ground save less read return.\nEnjoy development entire in. Make budget water page enjoy born also. Newspaper stage yeah.","estimatedTime":"10 weeks","previewFileId":"d16a5652-8207-45bd-8a47-91c9cdf98347","createdByUserId":"0daa09cf-1976-45ac-b40b-ad326f014faf"}'

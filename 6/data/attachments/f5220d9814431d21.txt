@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM3OjMxLjY3NzM4NiIsInVzZXJfaWQiOiI1MGQ3NTJjZS1lYjI5LTQ5MTEtYTJiMy03MjhjNjc1NTBkMzgifQ.6yskQJfoCtA1JpC_u2NfbX6CaGOPoHlehWIZ8AyOxzs' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice new child music standard.","maxScore":64,"minScore":15,"description":"Effort include it pretty. Especially meeting occur section mean.\nEvent take though especially free nearly. Lawyer gas hundred test manage moment boy air.","estimatedTime":"5 weeks","previewFileId":"72c4f3a1-ca1f-4ab5-badb-7eef82bf4e01","createdByUserId":"50d752ce-eb29-4911-a2b3-728c67550d38"}'

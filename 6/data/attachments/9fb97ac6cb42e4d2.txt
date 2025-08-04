@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM3OjM0LjA3MTAyOSIsInVzZXJfaWQiOiIwZGFhMDljZi0xOTc2LTQ1YWMtYjQwYi1hZDMyNmYwMTRmYWYifQ.gVHUZn0xWSy4TmQQX7NECUBGwHxk9-P_EPIxi01JWV8' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough test down drop weight hold treatment.","courseId":"6bedfac7-88f1-4870-bc7c-4565bab026a8","maxScore":79,"minScore":14,"orderIndex":14,"description":"Partner great election decision probably which. Her action direction response them size third. These three maybe most single amount.\nReady scene simply than son. Government brother artist laugh.","estimatedTime":"4 weeks"}'
