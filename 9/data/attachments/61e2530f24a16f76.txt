@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjU2OjQ3LjEyNTE0MCIsInVzZXJfaWQiOiJjMmEwMjZiZC0xZDYxLTRiNmUtYjg1Yi0zYzM4M2Q4MjM2NGMifQ.26YmGUi8AjwddIlLz_z5FpARRDsB2HMOFuN7pamwSGM' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Government often player property cut minute.","courseId":"670188b9-be3f-4524-a587-cc3501d8f10c","maxScore":60,"minScore":9,"orderIndex":64,"description":"Protect response support community interview Congress. Buy agent music section reveal site with.","estimatedTime":"8 weeks"}'

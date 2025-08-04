@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjU2OjQ0LjUyMTQ4NiIsInVzZXJfaWQiOiI2NWExN2MxNi1kYTFlLTQ0MmMtYjE4YS1iYjkwZmY4MjQ1YTEifQ.dsdC7Xgbc6DuwIcO0TaDDDD4sJJJ0DNqiKR_63wxnAg' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak foreign worry type yourself.","maxScore":81,"minScore":24,"description":"Fact other light teach share different fast. Ability central whom pay owner use leave.\nSing rise develop free our billion. A when other no.\nAct while seven. Station win left result summer summer.","estimatedTime":"9 weeks","previewFileId":"658918e0-7843-4174-8e46-f86971ebe363","createdByUserId":"65a17c16-da1e-442c-b18a-bb90ff8245a1"}'

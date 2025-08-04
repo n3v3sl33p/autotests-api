@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjU2OjQ1LjY2NDA3MSIsInVzZXJfaWQiOiIyNjI2NzQ5MC03ODk5LTQ2OTAtYTgwMS1jZjdmZDY4ODQzYTMifQ.NVib1fPMzIVakjCZqkyx9zgPcSFIrgYIwiX0sBkkXxk' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody language her person this range animal.","maxScore":98,"minScore":5,"description":"Go also career wrong none myself court.\nGroup every usually class yeah ready third. Financial take eat director position someone today. Through power film development.","estimatedTime":"7 weeks","previewFileId":"50e08322-b337-4866-8621-d07514a469c5","createdByUserId":"26267490-7899-4690-a801-cf7fd68843a3"}'

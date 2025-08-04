@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjU2OjQ2Ljg1MjQwNyIsInVzZXJfaWQiOiI0NzllYzA3Mi04MGJlLTQwM2UtODU4Zi0zMGVmMGZlZWVlNTAifQ.67xMsMn22ubmxUyOnGMsHGXsA-t-YlnCm18JWvn6A3Y' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must why hot difficult.","maxScore":57,"minScore":16,"description":"Deal two fund. Cultural shoulder central name.\nInformation ready can write during Democrat tonight. Matter child husband through sign bag hot then.","estimatedTime":"5 weeks","previewFileId":"8889e762-7283-4db5-82e0-6e5fbe5e629c","createdByUserId":"479ec072-80be-403e-858f-30ef0feeee50"}'
