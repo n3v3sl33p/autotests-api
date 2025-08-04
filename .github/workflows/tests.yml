@@ -54,9 +54,9 @@ jobs:
       # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
         env:
-          TEST_DATA.IMAGE_PNG_FILE="./testdata/files/negr.png"
-          HTTP_CLIENT.URL="http://localhost:8000"
-          HTTP_CLIENT.TIMEOUT=100
+          TEST_DATA.IMAGE_PNG_FILE: "./testdata/files/negr.png"
+          HTTP_CLIENT.URL: "http://localhost:8000"
+          HTTP_CLIENT.TIMEOUT: 100
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
