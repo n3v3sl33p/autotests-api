@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI3LjI2OTUwOCIsInVzZXJfaWQiOiJjMzFhNTYyZS00NGUyLTRkZDUtODU1NC00ZTczODRjZDExMmYifQ.expl135CHQAOVlhVZPRQI_SVwDxuJMuBXgDb4krSF_o' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Education though crime tonight organization face assume.","courseId":"1d01945a-10ac-4674-9a45-6634851d3116","maxScore":60,"minScore":17,"orderIndex":52,"description":"Say may traditional strategy particularly. Behind family everything. Conference artist federal market language record.\nImage investment discover.\nPurpose where billion. Sort factor life.","estimatedTime":"8 weeks"}'

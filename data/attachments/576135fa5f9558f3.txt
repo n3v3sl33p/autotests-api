@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI3LjkxMzMwMyIsInVzZXJfaWQiOiJkOGVjYjVlYS1kNGM2LTQzMGYtYWEwZC0yMGM4YTUxY2M2ZTIifQ.jDwHZVFGCBkfryzgql_AgZrVaa9n9M3kUmKJx7EvgmY' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forward feel majority north writer.","maxScore":84,"minScore":14,"description":"Both better paper pass center issue computer throughout. Course person allow all tree assume.","estimatedTime":"2 weeks","previewFileId":"4e6bafac-4937-4d72-a78e-ee364d3ed4ea","createdByUserId":"d8ecb5ea-d4c6-430f-aa0d-20c8a51cc6e2"}'

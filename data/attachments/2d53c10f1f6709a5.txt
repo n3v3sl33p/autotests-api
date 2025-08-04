@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjIzLjYyOTU2MyIsInVzZXJfaWQiOiJiZmFmOWZkZC00OTI4LTQzNGQtOWUxMS1kMjkxYjI5ZjZiZDkifQ.MyuVCy_RACJXy0zRYD5zhIEOGSUgKw8GdfXzXOOiXn4' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treat minute way through break couple if.","maxScore":55,"minScore":4,"description":"Become also other box write mouth. Star news general conference attorney point. Collection more page improve behind practice bill out.\nPhysical participant after. Also there role.","estimatedTime":"1 weeks","previewFileId":"9bc60853-6a4f-4a58-8658-de857145d742","createdByUserId":"bfaf9fdd-4928-434d-9e11-d291b29f6bd9"}'

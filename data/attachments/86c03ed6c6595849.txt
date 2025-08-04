@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI2LjY3MzI5NCIsInVzZXJfaWQiOiI4ZDFhNmJlYS1lNDEwLTRmMTEtOTkwZC0xMjY3OGU0OWY5MzIifQ.7kBc55Lv-wez3Xaa_MnyMKgTUWn3I5yP4h6po2aNnqQ' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Air easy sit back certain source sense.","maxScore":89,"minScore":11,"description":"Officer policy able late. Treat behavior TV. Cold kind watch manage teach.\nChoose scientist point expert law dog. No outside seem camera.\nRecently apply defense fly job. Offer suffer could.","estimatedTime":"8 weeks","previewFileId":"ffe392e2-e605-4dc4-a8e3-beebb79b711c","createdByUserId":"8d1a6bea-e410-4f11-990d-12678e49f932"}'

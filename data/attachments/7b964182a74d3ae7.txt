@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI0Ljg2MzE0NyIsInVzZXJfaWQiOiJkY2NjMWNhMi0wYzI1LTQwN2YtYTYwMi1iNjEzZjE1NGE1YjgifQ.M6FnfZV4c9fnpWRqJuOrtc_4cLsFUPHxKeU6n1jkH-s' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If part member live each majority.","maxScore":86,"minScore":22,"description":"Lawyer between clear single. Couple product maybe will guess point. Live author bag indeed everything involve never. Avoid Mr although story guess investment.","estimatedTime":"6 weeks","previewFileId":"11eca4f2-c019-44ca-82e2-86d553010f92","createdByUserId":"dccc1ca2-0c25-407f-a602-b613f154a5b8"}'

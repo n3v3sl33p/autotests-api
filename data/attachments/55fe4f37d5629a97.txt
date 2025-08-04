@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI0LjIyNTczMCIsInVzZXJfaWQiOiIxN2FiNDE4Mi1iOWU2LTQwNzgtODBlNS0yNGRjOWVlMjU3MWYifQ.8HhnO6DE0KABbvSv0AXRzD2MKzOr4jOZPV9yBj5LQAg' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Try exist need over for.","maxScore":83,"minScore":3,"description":"Bag report action parent statement relationship among. Partner yard change decision protect myself environment crime.","estimatedTime":"9 weeks","previewFileId":"bfb7e6e2-44c7-4c15-b7ca-0379de13ddaf","createdByUserId":"17ab4182-b9e6-4078-80e5-24dc9ee2571f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/559e4a34-5727-4147-bb15-12e7e8a0e9d5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI0LjIyNTczMCIsInVzZXJfaWQiOiIxN2FiNDE4Mi1iOWU2LTQwNzgtODBlNS0yNGRjOWVlMjU3MWYifQ.8HhnO6DE0KABbvSv0AXRzD2MKzOr4jOZPV9yBj5LQAg' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish onto reflect girl.","maxScore":89,"minScore":28,"description":"Popular listen actually serious pass simple rest college. Child situation white shoulder choose week. Thought rather task mission student.\nQuickly street bar.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI2LjAzNTAzMyIsInVzZXJfaWQiOiI1MjQ3OTY1Yi04YmQwLTQzODMtOGNjNi0yMmYyZGUxYWEzYWYifQ.R3XahgMRKBTWpNF4EPGK1P6sGSI8X6Pdfv2RzoAiEc4' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should station exactly manage north art simply.","maxScore":59,"minScore":17,"description":"Grow few guy old large yourself minute. Management around forward yet great factor.\nNecessary will describe similar land very. Evidence business toward amount light. Full above push situation main.","estimatedTime":"4 weeks","previewFileId":"c009e824-36cb-4fc1-8acc-d8dccec62542","createdByUserId":"5247965b-8bd0-4383-8cc6-22f2de1aa3af"}'

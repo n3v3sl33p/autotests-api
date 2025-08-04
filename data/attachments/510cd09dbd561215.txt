@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/courses/559e4a34-5727-4147-bb15-12e7e8a0e9d5
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/courses/559e4a34-5727-4147-bb15-12e7e8a0e9d5
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Establish onto reflect girl.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Popular listen actually serious pass simple rest college. Child situation white shoulder choose week. Thought rather task mission student.
+Quickly street bar.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

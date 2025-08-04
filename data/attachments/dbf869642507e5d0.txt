@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE3OjA1OjI3LjI2OTUwOCIsInVzZXJfaWQiOiJjMzFhNTYyZS00NGUyLTRkZDUtODU1NC00ZTczODRjZDExMmYifQ.expl135CHQAOVlhVZPRQI_SVwDxuJMuBXgDb4krSF_o' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late station and style.","maxScore":64,"minScore":7,"description":"Amount last treat. Quality current far among investment key.\nHusband sport including investment. Full since join street able art majority. Him benefit win above drug wait.","estimatedTime":"6 weeks","previewFileId":"e42d7491-bbb9-43c7-98d0-bd95a93948cf","createdByUserId":"c31a562e-44e2-4dd5-8554-4e7384cd112f"}'

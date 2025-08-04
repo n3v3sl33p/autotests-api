@@ -1,0 +1,15 @@
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/users/me
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/users/me
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     USERS_ASSERTIONS:users.py:48 Check get user response
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 3457b1c8-d4fb-4709-9fd2-b0b4b682f351
+INFO     BASE_ASSERTIONS:base.py:37 Check that "email" equals to kimberly25@example.net
+INFO     BASE_ASSERTIONS:base.py:37 Check that "last_name" equals to Hansen
+INFO     BASE_ASSERTIONS:base.py:37 Check that "first_name" equals to Sarah
+INFO     BASE_ASSERTIONS:base.py:37 Check that "middle_name" equals to Lindsey
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
