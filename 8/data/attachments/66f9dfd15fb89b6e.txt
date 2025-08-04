@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:32 Make GET request to http://localhost:8000/api/v1/exercises?courseId=509afbfc-4c0d-4e65-a2db-a5a56d9696d2
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=509afbfc-4c0d-4e65-a2db-a5a56d9696d2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:137 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:66 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:53 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 35b504a6-f315-4df5-bd7c-f9f736c177c0
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Represent third degree put likely.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Computer view question dog. Finally matter south top hair case their. Glass truth thousand letter cold yeah.
+Town key force investment great new. She economy where glass control like.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 509afbfc-4c0d-4e65-a2db-a5a56d9696d2
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 1
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

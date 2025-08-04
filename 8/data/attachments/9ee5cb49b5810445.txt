@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjEzLjUwNjkyMCIsInVzZXJfaWQiOiI3NTUwYjdlOS0wNjNmLTQxYTctOGQwYi1hYzljNTM0ZjA3MDQifQ.MBI6Ssd0xngMkA32tPzV93IE4VdQuoHbM4ag2cx-WTE' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Outside sell half talk increase.","courseId":"136ad846-d148-498b-b97e-9af559868e3c","maxScore":61,"minScore":15,"orderIndex":52,"description":"Deep enter role bit left outside better. International stand tonight career blood. Leg series knowledge pattern light bring.","estimatedTime":"5 weeks"}'

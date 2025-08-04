@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjEzLjUwNjkyMCIsInVzZXJfaWQiOiI3NTUwYjdlOS0wNjNmLTQxYTctOGQwYi1hYzljNTM0ZjA3MDQifQ.MBI6Ssd0xngMkA32tPzV93IE4VdQuoHbM4ag2cx-WTE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community general agree.","maxScore":82,"minScore":10,"description":"Garden time president cultural plan community. Meet social firm husband actually view go.\nHair budget history. Religious deal then already business million door.","estimatedTime":"8 weeks","previewFileId":"31efea63-02e6-466e-b4b8-3fa9ac95c4bf","createdByUserId":"7550b7e9-063f-41a7-8d0b-ac9c534f0704"}'

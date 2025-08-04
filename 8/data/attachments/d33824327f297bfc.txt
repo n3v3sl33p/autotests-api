@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjEyLjMyNDI5NSIsInVzZXJfaWQiOiI3NzFjNjIwYi1iOTMyLTQ1NmEtYTE4NC0zMjQwMTVkYjZhNTMifQ.jyYhv-XnT7ii8sW0b6JnBeED6c7OEEU67Br4sezX_uw' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human decide hundred.","courseId":"73ad8058-bac7-40f1-9336-d7741c8ee59f","maxScore":85,"minScore":29,"orderIndex":17,"description":"Yard within writer fact benefit face make. Crime education state gas spring final management.\nMan body rest especially growth. Space whom population close discussion management.","estimatedTime":"6 weeks"}'

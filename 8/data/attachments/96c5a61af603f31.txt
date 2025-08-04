@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjExLjEzNjM5NCIsInVzZXJfaWQiOiJiMDlhNzU3Yi0wMjk5LTQwZmUtYTAwZi1kMjZiOTZiNzI4ZDAifQ.sWyLHHataSiW09KoR7zxoZaCoavyMA4W9vrlwFcz5yI' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White type son doctor sing.","maxScore":100,"minScore":9,"description":"Show father four truth fire. Argue easy certain under system town.\nMovement behind nation thus north particularly everybody. Positive training give tend pressure or above.","estimatedTime":"9 weeks","previewFileId":"68ea1c6d-ce68-49e0-9a4a-c4ac08211461","createdByUserId":"b09a757b-0299-40fe-a00f-d26b96b728d0"}'

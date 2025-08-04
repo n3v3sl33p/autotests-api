@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/36458bea-faab-471f-ae84-1dd288e76af2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjExLjEzNjM5NCIsInVzZXJfaWQiOiJiMDlhNzU3Yi0wMjk5LTQwZmUtYTAwZi1kMjZiOTZiNzI4ZDAifQ.sWyLHHataSiW09KoR7zxoZaCoavyMA4W9vrlwFcz5yI' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product with question resource begin image.","maxScore":86,"minScore":14,"description":"Economy not live another. Gas will reveal thousand seem action particular. Lot decade company poor author. My weight religious I.\nCountry training fall account respond.","estimatedTime":"9 weeks"}'

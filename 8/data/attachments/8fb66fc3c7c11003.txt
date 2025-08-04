@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjEyLjMyNDI5NSIsInVzZXJfaWQiOiI3NzFjNjIwYi1iOTMyLTQ1NmEtYTE4NC0zMjQwMTVkYjZhNTMifQ.jyYhv-XnT7ii8sW0b6JnBeED6c7OEEU67Br4sezX_uw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She election two think.","maxScore":84,"minScore":12,"description":"Compare describe accept with evidence impact road. Debate exactly tonight audience manage responsibility.\nAttack plant see rock sport. Computer sure paper billion safe assume owner network.","estimatedTime":"10 weeks","previewFileId":"e5f7a6c4-20ee-4ffa-91a9-343d04df4df2","createdByUserId":"771c620b-b932-456a-a184-324015db6a53"}'

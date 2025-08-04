@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjE0LjcwMjE4OCIsInVzZXJfaWQiOiIxZTFiMGMzMi0xZjliLTQwZmUtODhkZi1lNTFhZDg0MTBiNGEifQ.UR4vbwQOWLB3NC_XXcVyE6oyL8hm7MnPn7EV7fqe2O4' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food charge environmental lot exactly religious according.","maxScore":95,"minScore":14,"description":"Weight fear there education music. However fund health let decade force develop. Option stay economic probably.","estimatedTime":"7 weeks","previewFileId":"210cf42f-b9e4-4f17-a44e-77dc5d06c3e1","createdByUserId":"1e1b0c32-1f9b-40fe-88df-e51ad8410b4a"}'

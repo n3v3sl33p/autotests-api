@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjUzOjEzLjc3OTQwMyIsInVzZXJfaWQiOiI0OGU5OWQyZS03ZmRiLTQ2NWQtYjZlZS04YmZmMWVkNWZhYjcifQ.4AlrJ-NiKGlp3FeFFnsrSj4sgxyyqnnXE3Yaox4rkI8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Want design particular big.","maxScore":86,"minScore":20,"description":"Own quite past trouble. Take consumer interview success speech. Song final again nothing deal follow stand.\nWould around law reason. Such nearly Mrs leave discussion home.","estimatedTime":"8 weeks","previewFileId":"cd2d5414-6cf2-456a-87c3-679e15ea0bd8","createdByUserId":"48e99d2e-7fdb-465d-b6ee-8bff1ed5fab7"}'
