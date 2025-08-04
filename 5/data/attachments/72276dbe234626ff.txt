@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e49b8e96-4d04-4535-a381-63366ab191d8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM0OjQyLjE1MjA4MyIsInVzZXJfaWQiOiI1OWJkMTdkNS1kYzRiLTRjZTAtOTdhNy0yMjdjZTg5MjExODAifQ.2IobnyyYsqMMZF0ZLqGQi4ZtsBO3Fy0cFZDAMsh_szQ' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later else catch create write.","maxScore":92,"minScore":25,"description":"Start share right business. Capital among four yeah meet if wish.\nReligious act tough throughout while each fill. Some help same. Standard ago off role of event.\nAhead many end focus heart property.","estimatedTime":"8 weeks"}'

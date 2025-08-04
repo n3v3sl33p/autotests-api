@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM0OjQzLjYwNDM2MCIsInVzZXJfaWQiOiJiZjIwNjgxNC1lMTZmLTQ4MWItOTg4ZC1kNzcxMThlOGRlNGMifQ.hGmLbJvzMLvW-IDHRwqMMU-gP-9PPJf93mcfuWvMwHw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now cell future into much many.","maxScore":60,"minScore":18,"description":"Event lot public treat like he later. Stuff race throw else.\nBehind concern explain last. Air arm course head Congress.\nEvening usually place treatment thus ever water.","estimatedTime":"9 weeks","previewFileId":"602b4fbe-3fb3-4617-9eab-546f59bd49ee","createdByUserId":"bf206814-e16f-481b-988d-d77118e8de4c"}'

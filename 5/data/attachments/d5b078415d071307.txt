@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM0OjQ0Ljc4OTE3NiIsInVzZXJfaWQiOiI5YzI0YjhkNy02NzRhLTRiNzYtYTY0Ny1jOWE2ZTNiNTYwMGYifQ.ECK7FXxcKFhPkjJfWemnZf1dgxoJRCy2d15v2LuFNDw' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Collection moment design chance image make decision.","maxScore":51,"minScore":15,"description":"Majority cause area official forward catch technology about. Miss though total third become.\nTalk degree person first I really front market. Coach special research surface sport there.","estimatedTime":"10 weeks","previewFileId":"1e5a601f-7b35-4fcc-9763-8f8ef7b17d45","createdByUserId":"9c24b8d7-674a-4b76-a647-c9a6e3b5600f"}'

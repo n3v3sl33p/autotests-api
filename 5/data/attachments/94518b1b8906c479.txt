@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM0OjQzLjg3NjU2MiIsInVzZXJfaWQiOiIxNmE4MjM3Zi1iNDcxLTRjYTEtOWEwMi0zYTBiMDQzZjg4NDQifQ.77uDLXSbS0eY0iXFjLI9Bvgi63wkIrCDAY8ILT-T_0Y' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern direction catch well memory natural.","maxScore":99,"minScore":18,"description":"Heart father up cut fear. Receive message kind think. Class protect manager population they cover.\nJoin new for wife. Or establish main rock. Long middle wide father bar movement.","estimatedTime":"8 weeks","previewFileId":"08b036e2-9257-49c7-9022-2e1e72946810","createdByUserId":"16a8237f-b471-4ca1-9a02-3a0b043f8844"}'

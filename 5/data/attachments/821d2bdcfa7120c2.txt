@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/fc67cca3-902b-4a27-a072-a9d10f6a5eeb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjM0OjQzLjg3NjU2MiIsInVzZXJfaWQiOiIxNmE4MjM3Zi1iNDcxLTRjYTEtOWEwMi0zYTBiMDQzZjg4NDQifQ.77uDLXSbS0eY0iXFjLI9Bvgi63wkIrCDAY8ILT-T_0Y' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera office be around kind wife stay none.","maxScore":74,"minScore":26,"description":"Month official material exactly. Finally officer could water house suddenly the. Control a television different task wrong him.","estimatedTime":"8 weeks"}'
