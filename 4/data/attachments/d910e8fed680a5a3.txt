@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:32 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:32 Make PATCH request to http://localhost:8000/api/v1/exercises/9a26e7e3-390f-4bae-8441-3e844edd7a4a
+INFO     HTTP_CLIENT:event_hooks.py:44 Got response 200 OK from http://localhost:8000/api/v1/exercises/9a26e7e3-390f-4bae-8441-3e844edd7a4a
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:92 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Order ten discussion respond.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Either music similar. Real either part get decade show.
+Deal today minute. Challenge she plant quality west. Main simple economic while interview make.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

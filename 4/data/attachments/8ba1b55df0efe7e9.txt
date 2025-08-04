@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjI1OjQ5LjY4Mzk3MiIsInVzZXJfaWQiOiIwZTRmNjlmNC02MGI0LTQyZTItOTdmYS03YjA3M2Q3MDRjYzgifQ.qJPWum52dFCFufIJYmaUjhfu6MQHawZ6CpMw0rCMaQ0' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too who success indeed parent score yourself.","maxScore":75,"minScore":11,"description":"Among operation who rather successful. Interesting court factor too this growth peace. Paper agree high law station.","estimatedTime":"7 weeks","previewFileId":"63368980-5ab4-4554-b31f-a9f97324a2cc","createdByUserId":"0e4f69f4-60b4-42e2-97fa-7b073d704cc8"}'

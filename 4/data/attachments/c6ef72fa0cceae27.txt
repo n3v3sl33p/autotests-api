@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjI1OjQ3LjkyMjg5MSIsInVzZXJfaWQiOiJlNWM4ZWJjMi1iMjY3LTRmOWEtOTliNy1iYWRiODU4Y2QwMzcifQ.aw36s12VOMqQ_QMSHF6l09Qrzt6fKODXezOKJIo0WdU' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Space garden admit onto.","maxScore":79,"minScore":21,"description":"Loss author audience western thousand. When cut shake increase whom short raise standard.\nMiddle per black drop. Leg source catch majority. Management either development.","estimatedTime":"6 weeks","previewFileId":"122119cf-43b7-40a8-a376-3f9ad3c00f96","createdByUserId":"e5c8ebc2-b267-4f9a-99b7-badb858cd037"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjI1OjQ5LjA5MDk3NyIsInVzZXJfaWQiOiI5YTU4MzE5Yy02NjU1LTQyZWItODNlYy0xODM3MmZjYzg1NTkifQ.sug0P8Sf8n9EaGY42FXEzQorVXjpL9bMWkDroc8FVEA' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be agency indeed live serve.","maxScore":90,"minScore":21,"description":"Simple determine move safe include reality often shake. Know meet right.\nFigure house provide. Simple might per crime customer. Bad central third throughout.","estimatedTime":"10 weeks","previewFileId":"ce48989f-f0c1-4c2b-80a8-f354c5b4bda3","createdByUserId":"9a58319c-6655-42eb-83ec-18372fcc8559"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE2OjI1OjQ5LjA5MDk3NyIsInVzZXJfaWQiOiI5YTU4MzE5Yy02NjU1LTQyZWItODNlYy0xODM3MmZjYzg1NTkifQ.sug0P8Sf8n9EaGY42FXEzQorVXjpL9bMWkDroc8FVEA' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song window that group.","courseId":"cf034532-f2d4-4070-8044-fc1f4d03d012","maxScore":78,"minScore":2,"orderIndex":95,"description":"Short million bag garden else oil painting but. College dinner many commercial everything deep. Far ask place meeting necessary possible move boy.","estimatedTime":"6 weeks"}'
